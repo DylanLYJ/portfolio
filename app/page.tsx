@@ -3,7 +3,7 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
 import ProfileBrief from '@/components/PageComponents/ProfileBrief'
-import { isMap } from 'util/types';
+import EducationBrief from '@/components/PageComponents/EducationBrief';
 
 const page = () => {
 
@@ -21,6 +21,7 @@ const page = () => {
   return (
     <div>
       <ProfileBrief isMobile={isMobile}/>
+      <EducationBrief isMobile={isMobile}/>
     </div>
   )
 }

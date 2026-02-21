@@ -33,3 +33,31 @@ body {
   --font-geist-mono: "Geist Mono", monospace;
   --font-opensans: "Open Sans", sans-serif;
 }
+
+.center-div{
+  @apply pt-25 space-y-3 absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center
+}
+
+.brief-section-mobile{
+  @apply relative min-h-screen py-8 px-12
+}
+
+.brief-section-desktop{
+  @apply relative min-h-screen py-8 px-17
+}
+
+.rounded-border-label{
+  @apply border rounded-2xl px-2 py-0.5
+}
+
+.link-label{
+  @apply text-blue-300 hover:underline
+}
+
+.image-description-mobile{
+  @apply flex space-x-10 pt-10
+}
+
+.image-description-desktop{
+  @apply flex space-x-40 pt-10 pl-30
+}

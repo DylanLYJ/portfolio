@@ -15,7 +15,7 @@ export const Contact = () => {
             </div>
                         <div>
                 <h1 className="text-sm">Github</h1>
-                <a href="https://github.com/DylanLYJ" className="text-xs text-blue-300 hover:underline">https://github.com/DylanLYJ</a>
+                <a href="https://github.com/DylanLYJ" className="text-xs link-label">https://github.com/DylanLYJ</a>
             </div>
         </div>
     </div>
