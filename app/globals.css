@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: monospace ,Arial, Helvetica, sans-serif;
 }
+
+@theme {
+  --color-darkblack: #1a1a1a;
+
+  --font-merri: "Merriweather", serif;
+  --font-geist: "Geist Sans", sans-serif;
+  --font-geist-mono: "Geist Mono", monospace;
+  --font-opensans: "Open Sans", sans-serif;
+}
