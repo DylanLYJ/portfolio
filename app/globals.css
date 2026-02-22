@@ -35,19 +35,19 @@ body {
 }
 
 .center-div{
-  @apply pt-25 space-y-3 absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center
+  @apply pt-25 space-y-3 flex flex-col items-center justify-center;
 }
 
 .brief-section-mobile{
-  @apply relative min-h-screen py-8 px-12
+  @apply relative px-12
 }
 
 .brief-section-desktop{
-  @apply relative min-h-screen py-8 px-17
+  @apply relative px-17
 }
 
 .rounded-border-label{
-  @apply border rounded-2xl px-2 py-0.5
+  @apply border rounded-2xl px-2 py-0.5 text-xl max-w-fit
 }
 
 .link-label{
