@@ -20,7 +20,7 @@ const ProfileBrief = ({isMobile} : {isMobile: boolean}) => {
                         <h1>Dylan Lim Yi Jie</h1>
                         <h1>Computer Science Student</h1>
                     </div>
-                    <p className={isMobile ? 'text-lg' : 'text-xl'}> A Software Development and Artificial Intelligence Enthusiasm</p>
+                    <p className={isMobile ? 'text-lg' : 'text-xl'}> A Software and web Development Enthusiasm</p>
                   </section>
                   <img src="/img/placeholder.png" alt='error occured' className={isMobile ? 'w-50 h-70 object-cover rounded-lg ' : 'w-80 h-100 object-cover rounded-lg '}/>
                 </div>

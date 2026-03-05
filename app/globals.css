@@ -61,3 +61,15 @@ body {
 .image-description-desktop{
   @apply flex space-x-40 pt-10 pl-30
 }
+
+.horizontally-placed-cards{
+  @apply flex pt-10 justify-center space-x-20
+}
+
+.drop-down-opened {
+  @apply text-blue-300 underline
+}
+
+.drop-down-closed {
+  @apply text-white
+}
