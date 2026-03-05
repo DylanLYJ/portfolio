@@ -38,9 +38,10 @@ const EducationBrief = ({isMobile} : {isMobile: boolean}) => {
       <div className='py-5'></div>
       
       <section className={isMobile? 'brief-section-mobile py-8' : 'brief-section-desktop py-8'}>
+        {isMobile && <img src="/img/unilogo.jpeg" alt='error occured' className='w-120 h-25 object-cover rounded-lg'/>}
         <div className={isMobile ? 'image-description-mobile items-center' : 'image-description-desktop items-center'}>
             
-              <img src="/img/unilogo.jpeg" alt='error occured' className={isMobile ? 'w-50 h-70 object-cover rounded-lg ' : 'w-120 h-30 object-cover rounded-lg '}/>
+              {!isMobile && <img src="/img/unilogo.jpeg" alt='error occured' className='w-120 h-30 object-cover rounded-lg '/>}
 
                     <div className={isMobile ? 'text-2xl space-y-2': 'text-4xl space-y-2'}>
                       <h1>University of Southampton Malaysia</h1>

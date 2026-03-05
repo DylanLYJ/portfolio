@@ -37,10 +37,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${openSans.variable} antialiased`}
       >
-        <Navbar/>
-        <div className="py-7"/>
         {children}
-        <Contact/>
       </body>
     </html>
   );
