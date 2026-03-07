@@ -34,6 +34,21 @@ body {
   --font-opensans: "Open Sans", sans-serif;
 }
 
+@keyframes shuffle {
+  0% {
+    transform: scale(1) translate(0, 0);
+    z-index: 30;
+  }
+  50% {
+    transform: scale(0.9) translate(-50px, -50px);
+    z-index:30;
+  }
+  100% {
+    transform: scale(0.85) translate(0, 20px);
+    z-index:10;
+  }
+}
+
 .center-div{
   @apply pt-25 space-y-3 flex flex-col items-center justify-center;
 }
@@ -72,4 +87,24 @@ body {
 
 .drop-down-closed {
   @apply text-white
+}
+
+.swappable-image {
+  @apply absolute w-full h-full object-fill rounded-xl shadow-lg border border-blue-100
+}
+
+.animate-back {
+  @apply z-10 scale-[0.85] translate-y-10 translate-x-14 transition-transform duration-500 opacity-50
+}
+
+.animate-mid {
+  @apply z-20 scale-[0.9] translate-y-6.5 translate-x-8.5 transition-transform duration-500 ease-in-out opacity-75
+}
+
+.animate-front {
+ @apply z-30 scale-100 translate-y-0 translate-x-0 transition-transform duration-500 ease-in-out opacity-100
+}
+
+.animate-shuffle {
+  animation: shuffle 0.5s forwards;
 }

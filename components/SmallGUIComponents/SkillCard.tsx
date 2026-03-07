@@ -50,7 +50,7 @@ export const SkillCard = ( {categoryName, categoryHeader, skills} : TopCategory)
           </div>
       </div>
       { showDetails &&
-        <div className='absolute bg-darkblack rounded-2xl border-2 border-black space-y-10 pb-4'>
+        <div className='absolute bg-darkblack rounded-2xl border-2 border-black space-y-10 pb-4 z-50'>
           {
             skills.map((skill,index) => (
             <SkillComponent key={index} categoryName={skill.categoryName} imagePath={skill.imagePath} subSkills={skill.subSkills} />))
