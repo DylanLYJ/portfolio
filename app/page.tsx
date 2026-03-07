@@ -39,7 +39,7 @@ const page = () => {
       <motion.div ref={educationBriefDiv} initial={{opacity:0}} whileInView={{ opacity: 1 }} viewport={{amount: 0.4}} transition={{duration:1}}>
         <EducationBrief isMobile={isMobile}/>
       </motion.div>
-      <motion.div ref={skillBriefDiv} initial={{opacity:0}} whileInView={{ opacity: 1 }} viewport={{amount: 0.2}} transition={{duration:1}}>
+      <motion.div ref={skillBriefDiv} initial={{opacity:0}} whileInView={{ opacity: 1 }} viewport={{amount: 0.05}} transition={{duration:1}}>
         <SkillBrief isMobile={isMobile}/>
       </motion.div>
       <motion.div ref={projectBriefDiv} initial={{opacity:0}} whileInView={{ opacity: 1 }} viewport={{amount: 0.1}} transition={{duration:1}}>

@@ -42,7 +42,7 @@ const ProjectBrief = ( {isMobile} : {isMobile:Boolean}) => {
   },
   { 
     projectName: "Portfolio Website",
-    projectImages: [],
+    projectImages: ["/img/portfolio/profile.png", "/img/portfolio/education.png", "/img/portfolio/skill.png", "/img/portfolio/projects.png"],
     projectSkills: ["React", "Next.js", "TailwindCSS"],
     projectDescription: "A portfolio website created using next.js framework. A learning project that uses various react components and functions to achieve different design effects for each section, it utilized react to achieve mobile compatability and conditional rendering.",
     projectGitLink: "https://github.com/DylanLYJ/portfolio"
