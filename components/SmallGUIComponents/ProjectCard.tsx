@@ -25,7 +25,7 @@ const ProjectCard = ( {projectName, projectImages, projectSkills, projectDescrip
             ))
           }
         </div>
-        <p>{projectDescription}</p>
+        <p  className="text-justify">{projectDescription}</p>
         <div className='pt-5'>
           <Link href={projectGitLink}>
             <button className=' border-b flex flex-row hover:border-blue-500 active:bg-darkblack'>View Github   
