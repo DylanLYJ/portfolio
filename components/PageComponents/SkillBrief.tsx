@@ -36,7 +36,7 @@ const SkillBrief = ( {isMobile} : {isMobile : Boolean}) => {
                             subSkills: [{ skillLevel: "Advanced" }],},
                 {categoryName: "C#", imagePath: "/img/Cslash.png",
                             subSkills: [{ skillLevel: "Beginner" }],},
-                {categoryName: "Haskell", imagePath: "/img/Haskell.png",
+                {categoryName: "Haskell", imagePath: "/img/haskell.png",
                             subSkills: [{ skillLevel: "Intermediate" }],},],
     },
     {
