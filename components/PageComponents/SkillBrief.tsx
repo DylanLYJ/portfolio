@@ -11,7 +11,7 @@ type SkillEntry = {
 };
 
 type SkillCategory = {
-  categoryName: String
+  categoryName: string
   imagePath: string;
   subSkills: SkillEntry[];
 };
