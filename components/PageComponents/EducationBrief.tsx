@@ -20,7 +20,7 @@ const EducationBrief = ({isMobile} : {isMobile: boolean}) => {
                   <div className="horizontally-placed-cards">
                       <div>
                         <div className="flex flex-row">
-                          <p className="text-5xl"> 8A </p>
+                          <p className="text-5xl"> 7A </p>
                           <p className="text-5xl pl-3 text-blue-300">+</p>
                         </div>
                         <h2>in SPM</h2>
